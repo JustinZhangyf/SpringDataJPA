@@ -1,0 +1,3 @@
+# Project exclude paths
+/01-JPA-hibernate/target/
+/02-Springdata-JPA/target/
