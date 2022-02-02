@@ -11,7 +11,7 @@
         <!--jpa的实现方式 -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <!--需要进行ORM的POJO类-->
-        <class>com.justin.Customer</class>
+        <class>com.justin.pojo.Customer</class>
 
         <!--可选配置：配置jpa实现方的配置信息-->
         <properties>
@@ -48,7 +48,7 @@
         <!--jpa的实现方式 -->
         <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
         <!--需要进行ORM的POJO类-->
-        <class>com.justin.Customer</class>
+        <class>com.justin.pojo.Customer</class>
 
         <!--可选配置：配置jpa实现方的配置信息-->
         <properties>

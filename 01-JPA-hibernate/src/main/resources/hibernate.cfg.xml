@@ -23,6 +23,6 @@
         <property name="dialect">org.hibernate.dialect.MySQL57InnoDBDialect</property>
 
         <!--指定哪些pojo 需要进行ORM映射-->
-        <mapping class="com.justin.Customer"></mapping>
+        <mapping class="com.justin.pojo.Customer"></mapping>
     </session-factory>
 </hibernate-configuration>
