@@ -28,7 +28,7 @@
     </bean>
 
     <bean name="datasource" class="com.alibaba.druid.pool.DruidDataSource">
-        <property name="url" value="jdbc:mysql://localhost:3306/springdata_jpa?characterEncoding=UTF-8"/>
+        <property name="url" value="jdbc:mysql://120.27.132.111:3306/springdata_jpa?characterEncoding=UTF-8"/>
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="username" value="root"/>
         <property name="password" value="root123"/>
